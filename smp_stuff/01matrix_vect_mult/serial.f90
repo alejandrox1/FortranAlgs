@@ -1,6 +1,11 @@
-!
-!
-      
+!! Calculate the result vector a by computing the dot product of the rows of
+!! the matrix B and vecctor c:                                                  
+!!  
+!! a_{m x 1} = B_{m x n} c_{n x 1}  
+!!
+!! Row variant:  
+!! a_i = \sum_{j=1}^{n} B_{i,j} * c_j          for i = 1 ,..., n
+!!
       program main
       
       interface
